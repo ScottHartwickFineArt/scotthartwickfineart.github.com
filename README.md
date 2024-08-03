@@ -1,1 +1,0 @@
-# scotthartwickfineart.github.com
