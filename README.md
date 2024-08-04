@@ -1,32 +1,43 @@
-Initio - Free, multipurpose html5 template
-=============
+#Flusk
 
-Initio is a fully featured html5 theme which will help you create a stylish personal or company site. 
-6 page layout templates should cover all your development needs. 
-Font Awesome 4, parallax effects and more are included (but can be turned off of course)
+An awesome free one page HTML template for your startup business or personal website.
+
+#Features
+
+- Ultra Modern Design
+- Full Screen Header Background
+- Optimized Code & Content
+- Modern Sliding Menu
+- Showcase your work more attractively.
+- HiDPI / Retina Ready
+- Clean Code
+- Cross-browser Compatibility
+- CSS3 Animations
+- SEO Optimized
+- 100% Fully Customizable
+- Sticky Header
+- Google Fonts
+- Built with HTML5 & CSS3
+- Strong focus on Usability and UX
+- Responsive layout
+- CSS Framework - Bootstrap 3
+- FontAwesome Icon Integrated
+- Clean and stylish UI
+- Smooth CSS3 animation
+- Well commented coding
+- Easy to use
+- It's Free!
+
+#Screenshot
 
 
-License
--------
-**Creative Commons Attribution 3.0** - http://creativecommons.org/licenses/by/3.0/
+![Screenshot of Flusk]
+(https://raw.githubusercontent.com/technext/Flusk/master/flusk.jpg)
 
-
-Bug tracker
------------
-
-Found a bug? Please create an issue here on GitHub! 
-https://github.com/pozh/Initio/issues
+#Demo Link
+Check out the demo of Flusk responsive HTML template at (http://themewagon.com/demo/Flusk/)
 
 
 
-Credits
--------
-* Design and development: **Sergey Pozhilov** - http://pozhilov.com
-* More free templates by Sergey: http://gettemplate.com
 
-Photos used in the template
--------
-* http://www.publicdomainpictures.net/view-image.php?image=19999
-* http://www.publicdomainpictures.net/view-image.php?image=6354
-* http://imcreator.com/free/business/macbook-computer
-* http://unsplush.com
+

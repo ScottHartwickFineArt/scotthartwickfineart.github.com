@@ -1,290 +1,322 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
+<!--[if IE 7 ]><html class="ie ie7 lte9 lte8 lte7" lang="en-US"><![endif]-->
+<!--[if IE 8]><html class="ie ie8 lte9 lte8" lang="en-US">	<![endif]-->
+<!--[if IE 9]><html class="ie ie9 lte9" lang="en-US"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="noIE" lang="en-US">
+<!--<![endif]-->
+	<head>
+		<title>Flusk</title>
+
+		<!-- meta -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"/>
+		
+		<!-- google fonts -->
+		<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans'>
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Serif:regular,bold"/>
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alegreya+Sans:regular,italic,bold,bolditalic"/>
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nixie+One:regular,italic,bold,bolditalic"/>
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alegreya+SC:regular,italic,bold,bolditalic"/>
+		
+		<!-- css -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/style.css" media="screen"/>
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+			<script src="assets/js/html5shiv.js"></script>
+			<script src="assets/js/respond.js"></script>
+		<![endif]-->
+
+		<!--[if IE 8]>
+	    	<script src="assets/js/selectivizr.js"></script>
+	    <![endif]-->
+	</head>
 	
-	<title>Initio - Free, multipurpose html5 template by GetTemplate</title>
-
-	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
-	
-	<!-- Bootstrap -->
-	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
-	<!-- Icons -->
-	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-	<!-- Fonts -->
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
-	<!-- Custom styles -->
-	<link rel="stylesheet" href="assets/css/styles.css">
-
-	<!--[if lt IE 9]> <script src="assets/js/html5shiv.js"></script> <![endif]-->
-</head>
-<body class="home">
-
-<header id="header">
-	<div id="head" class="parallax" parallax-speed="2">
-		<h1 id="logo" class="text-center">
-			<img class="img-circle" src="assets/images/guy.jpg" alt="">
-			<span class="title">Anthony Russel</span>
-			<span class="tagline">A mystery person<br>
-				<a href="">anthony.russel42@example.com</a></span>
-		</h1>
-	</div>
-
-	<nav class="navbar navbar-default navbar-sticky">
-		<div class="container-fluid">
-			
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+	<body>
+		<div id="drawer-right">
+			<div class="cross text-right">
+				<a class="toggleDrawer" href="#"><i class="fa fa-times-circle fa-2x"></i></a>
 			</div>
-			
-			<div class="navbar-collapse collapse">
-				
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">More Pages <b class="caret"></b></a>
-						<ul class="dropdown-menu">
-							<li><a href="sidebar-left.html">Left Sidebar</a></li>
-							<li><a href="sidebar-right.html">Right Sidebar</a></li>
-							<li><a href="single.html">Blog Post</a></li>
-						</ul>
+			<h2>Navigate</h2>
+			<nav>
+				<ul class="nav nav-pills nav-stacked">
+					<li>
+						<a href="#wrapper"><i class="fa fa-home"></i> Home</a>
 					</li>
-					<li><a href="blog.html">Blog</a></li>
+					<li>
+						<a href="#portfolio"><i class="fa fa-bookmark"></i> Portfolio</a>
+					</li>
+					<li>
+						<a href="#services"><i class="fa fa-tasks"></i> Services</a>
+					</li>
+					<li>
+						<a href="#blog"><i class="fa fa-wordpress"></i> Blog</a>
+					</li>
+					<li>
+						<a href="#parallax"><i class="fa fa-heart"></i> Parallax</a>
+					</li>
+					<li>
+						<a href="#testimonials"><i class="fa fa-thumbs-up"></i> Testimonials</a>
+					</li>
+					<li>
+						<a href="#contact"><i class="fa fa-phone-square"></i> Contact</a>
+					</li>
 				</ul>
+			</nav>
+			<div class="social">
+				<h2>Stay Connected</h2>
+				<ul>
+					<li><a href=""><i class="fa fa-facebook-square fa-3x"></i></a></li>
+					<li><a href=""><i class="fa fa-twitter-square fa-3x"></i></a></li>
+					<li><a href=""><i class="fa fa-tumblr-square fa-3x"></i></a></li>
+					<li><a href=""><i class="fa fa-google-plus-square fa-3x"></i></a></li>
+				</ul>
+			</div>
+		</div><!-- #drawer-right -->
+
+		<div id="wrapper">
 			
-			</div><!--/.nav-collapse -->			
-		</div>	
-	</nav>
-</header>
+			<div id="header" class="content-block header-wrapper">
+				<div class="header-wrapper-inner">
+					<section class="top clearfix">
+						<div class="pull-left">
+							<h1><a class="logo" href="index.html">Flusk</a></h1>
+						</div>
+						<div class="pull-right">
+							<a class="toggleDrawer" href="#"><i class="fa fa-bars fa-2x"></i></a>
+						</div>
+					</section>
+					<section class="center">
+						<div class="slogan">
+							SLIM &amp; STYLISH
+						</div>
+						<div class="secondary-slogan">
+							The Flusk Theme By ThemeWagon.
+						</div>
+					</section>
+					<section class="bottom">
+						<a id="scrollToContent" href="#">
+							<img src="assets/images/arrow_down.png">
+						</a>
+					</section>
+				</div>
+			</div><!-- header -->
 
-<main id="main">
-
-	<div class="container">
-		
-		<div class="row section topspace">
-			<div class="col-md-12">
-				<p class="lead text-center text-muted">Let me tell you something my friend. hope is a dangerous thing. hope can drive a man insane. you <a href="about.html">measure</a> yourself by the people who measure themselves by you. it only took me <a href="sidebar-right.html">six days</a>. </p>
-			</div>
-		</div> <!-- / section -->
-		
-		<div class="row section featured topspace">
-			<h2 class="section-title"><span>Services</span></h2>
-			<div class="row">
-				<div class="col-sm-6 col-md-3">
-					<h3 class="text-center">Custom website design</h3>
-					<p>I don't think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn't eat for three weeks. i once heard a wise man say there are no perfect men.</p>
-					<p class="text-center"><a href="" class="btn btn-action">Read more</a></p>
-				</div>
-				<div class="col-sm-6 col-md-3">
-					<h3 class="text-center">Wordpress integration</h3>
-					<p>I don't think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn't eat for three weeks. i once heard a wise man say there are no perfect men.</p>
-					<p class="text-center"><a href="" class="btn btn-action">Read more</a></p>
-				</div>
-				<div class="col-sm-6 col-md-3">
-					<h3 class="text-center">Application development</h3>
-					<p>I don't think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn't eat for three weeks. i once heard a wise man say there are no perfect men.</p>
-					<p class="text-center"><a href="" class="btn btn-action">Read more</a></p>
-				</div>
-				<div class="col-sm-6 col-md-3">
-					<h3 class="text-center">SEO &amp; SEM services</h3>
-					<p>I don't think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn't eat for three weeks. i once heard a wise man say there are no perfect men.</p>
-					<p class="text-center"><a href="" class="btn btn-action">Read more</a></p>
-				</div>
-			</div>
-		</div> <!-- / section -->
-	
-		<div class="row section recentworks topspace">
 			
-			<h2 class="section-title"><span>Recent Works</span></h2>
-			
-			<div class="thumbnails recentworks row">
-				
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="sidebar-right.html">
-						<span class="img">
-							<img src="assets/images/s1.jpg" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-						<span class="title">Sample title - big data solutions</span>
-					</a>
-					<span class="details"><a href="">Web design</a> | <a href="">Wordpress</a> | <a href="">Logotype</a></span>
-					<h4></h4>
-					<p></p>
+			<div class="content-block" id="portfolio">
+				<div class="container">
+					<header class="block-heading cleafix">
+						<a href="#" class="btn btn-o btn-lg pull-right">View All</a>
+						<h1>Our Latest Works</h1>
+						<p>Take a look at some of our recent products</p>
+					</header>
+					<section class="block-body">
+						<div class="row">
+							<div class="col-sm-4">
+								<a href="#" class="recent-work" style="background-image:url(assets/images/rain_1-320x240.jpg)">
+									<span class="btn btn-o-white">Lorem Rocks</span>
+								</a>
+							</div>
+							<div class="col-sm-4">
+								<a href="#" class="recent-work" style="background-image:url(assets/images/min_icons_thumb1-320x240.jpg)">
+									<span class="btn btn-o-white">Lorem Rocks</span>
+								</a>
+							</div>
+							<div class="col-sm-4">
+								<a href="#" class="recent-work" style="background-image:url(assets/images/flat_icons_thumb.jpg)">
+									<span class="btn btn-o-white">Lorem Rocks</span>
+								</a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-4">
+								<a href="#" class="recent-work" style="background-image:url(assets/images/wood-320x240.jpg)">
+									<span class="btn btn-o-white">Lorem Rocks</span>
+								</a>
+							</div>
+							<div class="col-sm-4">
+								<a href="#" class="recent-work" style="background-image:url(assets/images/bike-320x240.jpg)">
+									<span class="btn btn-o-white">Lorem Rocks</span>
+								</a>
+							</div>
+							<div class="col-sm-4">
+								<a href="#" class="recent-work" style="background-image:url(assets/images/six_1-320x240.jpg)">
+									<span class="btn btn-o-white">Lorem Rocks</span>
+								</a>
+							</div>
+						</div>
+					</section>
 				</div>
-				
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="sidebar-right.html">
-						<span class="img">
-							<img src="assets/images/s1.jpg" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-						<span class="title">Pure ipsum - development services for people</span>
-					</a>
-					<span class="details"><a href="">Web design</a> | <a href="">Wordpress</a></span>
-					<h4></h4>
-					<p></p>
+			</div><!-- #portfolio -->
+
+			<div class="content-block parallax" id="services">
+				<div class="container text-center">
+					<header class="block-heading cleafix">
+						<h1>Our Services</h1>
+						<p>A little about what we do</p>
+					</header>
+					<section class="block-body">
+						<div class="row">
+							<div class="col-md-4">
+								<div class="service">
+									<i class="fa fa-send-o"></i>
+									<h2>Illustration</h2>
+									<p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in lorem.</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="service">
+									<i class="fa fa-heart-o"></i>
+									<h2>3D Modeling</h2>
+									<p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in lorem.</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="service">
+									<i class="fa fa-camera-retro"></i>
+									<h2>Photography</h2>
+									<p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in lorem.</p>
+								</div>
+							</div>
+						</div>
+					</section>
 				</div>
-				
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="sidebar-right.html">
-						<span class="img">
-							<img src="assets/images/s1.jpg" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-						<span class="title">Lorem studios - interior and patio design</span>
-					</a>
-					<span class="details"><a href="">Web design</a> | <a href="">Logotype</a></span>
-					<h4></h4>
-					<p></p>
+			</div><!-- #services -->
+
+
+			<div class="content-block" id="blog">
+				<div class="container">
+					<header class="block-heading cleafix">
+						<a href="#" class="btn btn-o btn-lg pull-right">View All</a>
+						<h1>From the Blog</h1>
+						<p>Keep up with the latest happenings.</p>
+					</header>
+					<section class="block-body">
+						<div class="row">
+							<div class="col-sm-4 blog-post">
+								<img src="assets/images/bike_water1-1000x600.jpg">
+								<a href="#"><h2>Design Your Mind</h2></a>
+								<div class="date">3 Nov, 2014</div>
+								<p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in lorem.</p>
+								<a href="">Read More</a>
+							</div>
+							<div class="col-sm-4 blog-post">
+								<img src="assets/images/mac_glasses1-1000x600.jpg">
+								<a href="#"><h2>Winter Is Comming</h2></a>
+								<div class="date">3 Nov, 2014</div>
+								<p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in lorem.</p>
+								<a href="">Read More</a>
+							</div>
+							<div class="col-sm-4 blog-post">
+								<img src="assets/images/road-1000x600.jpg">
+								<a href="#"><h2>The Illustration</h2></a>
+								<div class="date">3 Nov, 2014</div>
+								<p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in lorem.</p>
+								<a href="">Read More</a>
+							</div>
+						</div>
+					</section>
 				</div>
+			</div><!-- #blog -->
 
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="sidebar-right.html">
-						<span class="img">
-							<img src="assets/images/s1.jpg" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-						<span class="title">Pure ipsum - development services for people</span>
-					</a>
-					<span class="details"><a href="">Web design</a> | <a href="">Wordpress</a></span>
-					<h4></h4>
-					<p></p>
+
+			<div class="content-block parallax" id="parallax">
+				<div class="container text-center">
+					<h1>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit.</h1>
+					<a href="" class="btn btn-o-white btn-lg">Get a free quote</a>
 				</div>
-				
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="sidebar-right.html">
-						<span class="img">
-							<img src="assets/images/s1.jpg" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-						<span class="title">Lorem studios - interior and patio design</span>
-					</a>
-					<span class="details"><a href="">Web design</a> | <a href="">Logotype</a></span>
-					<h4></h4>
-					<p></p>
+			</div><!-- #parallax -->
+
+			<div class="content-block" id="testimonials">
+				<div class="container">
+					<header class="block-heading cleafix">
+						<h1>Testimonials</h1>
+						<p>Some happy customers have to say.</p>
+					</header>
+					<section class="block-body">
+						<div class="row">
+							<div class="col-md-4">
+								<div class="testimonial">
+									<img src="assets/images/testimonial_31-190x190.jpg">
+									<p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in lorem.</p>
+									<strong>Jhon Doe</strong><br/>
+									<span>Head of Ideas, Technext</span>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="testimonial">
+									<img src="assets/images/testimonial_11-190x190.jpg">
+									<p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in lorem.</p>
+									<strong>Jane Doe</strong><br/>
+									<span>CEO, Apple Inc</span>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="testimonial">
+									<img src="assets/images/testimonial_22-190x190.jpg">
+									<p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in lorem.</p>
+									<strong>Albert Doe</strong><br/>
+									<span>Team Lead, Design Studio</span>
+								</div>
+							</div>
+						</div>
+					</section>
 				</div>
+			</div><!-- /#testimonials -->
 
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="sidebar-right.html">
-						<span class="img">
-							<img src="assets/images/s1.jpg" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-						<span class="title">Lorem studios - interior and patio design</span>
-					</a>
-					<span class="details"><a href="">Web design</a> | <a href="">Logotype</a></span>
-					<h4></h4>
-					<p></p>
+
+			<div class="content-block" id="contact">
+				<div class="container text-center">
+					<header class="block-heading cleafix">
+						<h1>Contact Us</h1>
+						<p>Feel free to drop us a line.</p>
+					</header>
+					<section class="block-body">
+						<div class="row">
+							<div class="col-md-6 col-md-offset-3">
+								<form class="" role="form">
+									<div class="form-group">
+								    	<input type="email" class="form-control form-control-white" id="subject" placeholder="Your Name" required>
+								  	</div>
+								    <div class="form-group">
+								    	<input type="email" class="form-control form-control-white" id="exampleInputEmail2" placeholder="Enter email" required>
+								    </div>
+								    <div class="form-group">
+								    	<textarea class="form-control form-control-white" placeholder="Write Something" required></textarea>
+								    </div>
+								  <input type="submit" class="btn btn-o-white" value="Say Hello">
+								</form>
+							</div>
+						</div>
+					</section>
 				</div>
-			</div>
+			</div><!-- #contact -->
 
-		</div> <!-- /section -->
-
-		<div class="row section topspace">
-			<div class="panel panel-cta"><div class="panel-body">
-				<div class="col-lg-8">
-					<p>A simple, nice-looking <b>call to action box</b>. Boxing is about respect. getting it for yourself, 
-					and taking it away from the other guy. no, this is mount everest. </p>
+			<div class="content-block" id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-6">&copy; Copyright Flusk 2014</div>
+						<div class="col-xs-6 text-right">Theme by <a href="https://themewagon.com/" target="_blank">ThemeWagon</a></div>
+					</div>
 				</div>
-				<div class="col-lg-4 text-right">
-					<a href="http://www.gettemplate.com/downloads/initio.zip " class="btn btn-primary btn-lg">Download template</a>
-				</div>
-			</div></div>
-		</div> <!-- /section -->
+			</div><!-- #footer -->
 
-		<div class="row section clients topspace">
-			<h2 class="section-title"><span>Clients</span></h2>
-			<div class="col-lg-12">
-				<p>
-					<img src="assets/images/sample_clients.png" alt="">
-				</p>
-			</div>
-		</div> <!-- /section -->
 
-	</div>	<!-- /container -->
-
-</main>
-
-<footer id="footer">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-3 widget">
-				<h3 class="widget-title">Contact</h3>
-				<div class="widget-body">
-					<p>+234 23 9873237<br>
-						<a href="mailto:#">some.email@somewhere.com</a><br>
-						<br>
-						234 Hidden Pond Road, Ashland City, TN 37015
-					</p>	
-				</div>
-			</div>
-
-			<div class="col-md-3 widget">
-				<h3 class="widget-title">Follow me</h3>
-				<div class="widget-body">
-					<p class="follow-me-icons">
-						<a href=""><i class="fa fa-twitter fa-2"></i></a>
-						<a href=""><i class="fa fa-dribbble fa-2"></i></a>
-						<a href=""><i class="fa fa-github fa-2"></i></a>
-						<a href=""><i class="fa fa-facebook fa-2"></i></a>
-					</p>
-				</div>
-			</div>
-
-			<div class="col-md-3 widget">
-				<h3 class="widget-title">Text widget</h3>
-				<div class="widget-body">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nihil natus explicabo ipsum quia iste aliquid repellat eveniet velit ipsa sunt libero sed aperiam id soluta officia asperiores adipisci maxime!</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nihil natus explicabo ipsum quia iste aliquid repellat eveniet velit ipsa sunt libero sed aperiam id soluta officia asperiores adipisci maxime!</p>
-				</div>
-			</div>
-
-			<div class="col-md-3 widget">
-				<h3 class="widget-title">Form widget</h3>
-				<div class="widget-body">
-					<p>+234 23 9873237<br>
-						<a href="mailto:#">some.email@somewhere.com</a><br>
-						<br>
-						234 Hidden Pond Road, Ashland City, TN 37015
-					</p>	
-				</div>
-			</div>
-
-		</div> <!-- /row of widgets -->
-	</div>
-</footer>
-
-<footer id="underfooter">
-	<div class="container">
-		<div class="row">
-			
-			<div class="col-md-6 widget">
-				<div class="widget-body">
-					<p>234 Hidden Pond Road, Ashland City, TN 37015 </p>
-				</div>
-			</div>
-
-			<div class="col-md-6 widget">
-				<div class="widget-body">
-					<p class="text-right">
-						Copyright &copy; 2014, Your awesome name here<br> 
-						Design: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a> </p>
-				</div>
-			</div>
-
-		</div> <!-- /row of widgets -->
-	</div>
-</footer>
+		</div><!--/#wrapper-->
 
 
 
-<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-<script src="assets/js/template.js"></script>
-</body>
+
+		<script src="assets/js/jquery-2.1.3.min.js"></script>
+		<script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/jquery.actual.min.js"></script>
+		<script src="assets/js/jquery.scrollTo.min.js"></script>
+		<script src="assets/js/script.js"></script>
+
+	</body>
 </html>
